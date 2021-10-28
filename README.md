@@ -45,6 +45,8 @@ A few made sense in l33t code:
 
 the last one worked
 
+---
+
 ##### There was also another challenge that i worked on but wasn't able to complete from the cryptography section named :
 ##### cryptum
 The challenge prompt was this :
