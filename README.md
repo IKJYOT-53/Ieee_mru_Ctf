@@ -54,3 +54,15 @@ The challenge prompt was this :
 > They do not deserve the mantle responsibility! Encrypt!
 
 And was provided with a zip file **Cryptum.zip**
+The file was encrypted , so used [fcrackzip](https://github.com/hyc/fcrackzip) and [rockyou.txt](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
+
+```sh
+fcrackzip -v -u -D -p rockyou.txt Cryptum.zip
+```
+found password = 'close'
+so extracted text file **flag.txt**
+Now the flag.txt file contained a lot of stuff , but found the some code written in a [forbidden language](https://en.wikipedia.org/wiki/Brainfuck)
+Tried processing it but failed at that point and time was up.
+
+The experience was pretty good.Learnt a lot.Had fun solving the challenges.
+Thanks IEEE MRU.
